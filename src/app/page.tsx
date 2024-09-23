@@ -26,7 +26,6 @@ export default function Home() {
       {/*<button
       className="advance"
       onClick={() => {
-        alert("a");
         //ここのボタンはまだ作り途中です。
       }}
       >
