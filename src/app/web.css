@@ -6,13 +6,8 @@
     color: blue;
 }
 
-/*
 .advance {
     border: none;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
+    background: none;
 }
-
-.advance:hover{
-    color: red;
-}
-*/

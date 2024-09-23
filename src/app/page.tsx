@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import "./web.css";
 
 export default function Home() {
@@ -23,14 +24,14 @@ export default function Home() {
         abc
       </button>
       <p className="blue">abc</p>
-      {/*<button
+      <button
       className="advance"
       onClick={() => {
-        //ここのボタンはまだ作り途中です。
+        location.href = `/display?page=0`;
       }}
       >
         進む
-      </button>*/}
+      </button>
     </div>
   );
 }
