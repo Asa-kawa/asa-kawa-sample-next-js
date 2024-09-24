@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import "./web.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,18 +21,8 @@ export default function Home() {
       onClick={() => {
         alert("Sample-next-js");
       }}
-      >
-        abc
-      </button>
-      <p className="blue">abc</p>
-      <button
-      className="advance"
-      onClick={() => {
-        location.href = `/display?page=0`;
-      }}
-      >
-        進む
-      </button>
+      >abc</button>
+      <Link href="/display?page=0" className="next">abc</Link>
     </div>
   );
 }

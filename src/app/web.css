@@ -6,8 +6,6 @@
     color: blue;
 }
 
-.advance {
-    border: none;
-    padding: 0;
-    background: none;
+.next {
+    text-decoration: none;
 }

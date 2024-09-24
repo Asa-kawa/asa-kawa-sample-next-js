@@ -17,7 +17,7 @@ function Page() {
         <>
             <p>Sample-next-js 0</p>
             <button
-            className="advance"
+            className="next"
              onClick={() => {
                 alert("進む");
             }}
