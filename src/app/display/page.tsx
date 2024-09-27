@@ -27,7 +27,9 @@ function Page() {
         <p>Sample-next-js 2</p>
         <Link href="display?page=3" className="next">進む</Link>
         </>,
-        <p>Sample-next-js 3</p>,
+        <>
+        <p>Sample-next-js 3</p>
+        </>,
     ]
 
     const searchParams = useSearchParams();
