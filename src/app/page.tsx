@@ -7,11 +7,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <p>Sample-next-js</p>
+      <p>sample-next-js</p>
       <button
       className="red"
       onClick={() => {
-        alert("Sample-next-js");
+        alert("sample-next-js");
       }}
       >
         ???
@@ -19,7 +19,7 @@ export default function Home() {
       <button
       className="blue"
       onClick={() => {
-        alert("Sample-next-js");
+        alert("sample-next-js");
       }}
       >abc</button><br />
       <Link href="/display?page=0" className="next">進む</Link>
