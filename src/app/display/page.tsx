@@ -16,14 +16,7 @@ function Page() {
     const pages = [
         <>
             <p>Sample-next-js 0</p>
-            <button
-            className="next"
-             onClick={() => {
-                 location.href("page=1");
-            }}
-            >
-                進む
-            </button>
+            <Link = href("page=1");>
         </>,
         <p>Sample-next-js 1</p>,
         <p>Sample-next-js 2</p>,
