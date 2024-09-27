@@ -19,7 +19,7 @@ function Page() {
             <button
             className="next"
              onClick={() => {
-                alert("進む");
+                 location.href(`page=1`);
             }}
             >
                 進む
