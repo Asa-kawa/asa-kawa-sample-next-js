@@ -16,7 +16,7 @@ function Page() {
     const pages = [
         <>
             <p>Sample-next-js 0</p>
-            <Link href="page=1">進む</Link>
+            <Link href="page=1" classneme="next">進む</Link>
         </>,
         <p>Sample-next-js 1</p>,
         <p>Sample-next-js 2</p>,
