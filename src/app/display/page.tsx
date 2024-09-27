@@ -16,11 +16,17 @@ export default function Home() {
 function Page() {
     const pages = [
         <>
-            <p>Sample-next-js 0</p>
-            <Link href="display?page=1" className="next">進む</Link>
+        <p>Sample-next-js 0</p>
+        <Link href="display?page=1" className="next">進む</Link>
         </>,
-        <p>Sample-next-js 1</p>,
-        <p>Sample-next-js 2</p>,
+        <>
+        <p>Sample-next-js 1</p>
+        <Link href="display?page=2" className="next">進む</Link>
+        </>,
+        <>
+        <p>Sample-next-js 2</p>
+        <Link href="display?page=3" className="next">進む</Link>
+        </>,
         <p>Sample-next-js 3</p>,
     ]
 
