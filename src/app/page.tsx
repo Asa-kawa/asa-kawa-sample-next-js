@@ -21,7 +21,7 @@ export default function Home() {
       onClick={() => {
         alert("Sample-next-js");
       }}
-      >abc</button>
+      >abc</button><br />
       <Link href="/display?page=0" className="next">進む</Link>
     </div>
   );
