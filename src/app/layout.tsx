@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sample-next-js",
+  title: "sample-next-js",
   description: "まだ作っている途中です。",
 };
 
