@@ -22,7 +22,7 @@ export default function Home() {
         alert("Sample-next-js");
       }}
       >abc</button>
-      <Link href="/display?page=0" className="next">abc</Link>
+      <Link href="/display?page=0" className="next">進む</Link>
     </div>
   );
 }
