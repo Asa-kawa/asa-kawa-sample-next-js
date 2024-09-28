@@ -21,12 +21,12 @@ function Page() {
         </>,
         <>
         <p>Sample-next-js 1</p>
-        <Link href="display?page=2" className="next">進む</Link>
-        <Link href="display?page=1">戻る</Link>
+        <Link href="display?page=2" className="next">進む</Link><br />
+        <Link href="display?page=0">戻る</Link>
         </>,
         <>
         <p>Sample-next-js 2</p>
-        <Link href="display?page=3" className="next">進む</Link>
+        <Link href="display?page=3" className="next">進む</Link><br />
         <Link href="display?page=1">戻る</Link>
         </>,
         <>
